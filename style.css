@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(20, 131, 205);
+    width: 100vw;
+    height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: "Poppins",sans-serif;
+}
+.box{
+    background-color: white;
+    padding: 30px;
+    width: 350px;
+    border-radius: 5px;
+}
+.box h3{
+    font-weight: normal;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+.box .option-box{
+    margin: 5px 0;
+}
+.box .sub-btn{
+    background-color:rgb(20, 131, 205);
+    border-radius: 2px;
+    border: none;
+    outline: none;
+   width: 100%;
+   padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    margin-top: 15px;
+    cursor: pointer;
+}
